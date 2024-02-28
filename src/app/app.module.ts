@@ -3,6 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { HeroesComponent } from './heroes/heroes.component';
+import { CommonModule } from '@angular/common';
 
 @NgModule({
   declarations: [
@@ -11,6 +12,7 @@ import { HeroesComponent } from './heroes/heroes.component';
   ],
   imports: [
     BrowserModule,
+    CommonModule,
     FormsModule,
   ],
   providers: [],
