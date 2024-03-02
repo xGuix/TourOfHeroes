@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
-import { AppModule } from './app.module';
+import { HeroesComponent } from './heroes/heroes.component';
+import { appConfig } from './app.config';
 
 @Component({
 
@@ -7,7 +8,7 @@ import { AppModule } from './app.module';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
   imports: [
-    AppModule
+    HeroesComponent,
   ],
   standalone: true,
 })
