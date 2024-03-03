@@ -3,6 +3,7 @@ import { HEROES } from '../mock-heroes';
 import { Hero } from '../interfaces/hero';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { HeroDetailComponent } from '../hero-detail/hero-detail.component';
 
 @Component({
   standalone: true,
@@ -11,7 +12,8 @@ import { FormsModule } from '@angular/forms';
   styleUrls: ['./heroes.component.scss'],
   imports : [
     CommonModule,
-    FormsModule
+    FormsModule,
+    HeroDetailComponent
   ]
 })
 export class HeroesComponent {
